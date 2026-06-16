@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://bnt5fftqah8ba"]
+
+[ext_resource type="Texture2D" uid="uid://dpnyckynfhkx5" path="res://chudling.jpg" id="1_1qovw"]
+[ext_resource type="Script" uid="uid://evshdrvirst8" path="res://scripts/card.gd" id="2_2as1d"]
+
+[node name="Chudling2" type="Sprite2D" unique_id=807475232]
+modulate = Color(1, 0.089999974, 0.089999974, 1)
+texture = ExtResource("1_1qovw")
+script = ExtResource("2_2as1d")
+Name = "EVIL Remling"

@@ -1,9 +1,8 @@
 [gd_scene format=3 uid="uid://uynqllcfv338"]
 
-[ext_resource type="Texture2D" uid="uid://dpnyckynfhkx5" path="res://chudling.jpg" id="1_wtcfe"]
+[ext_resource type="Script" uid="uid://dmxrxp225gmvn" path="res://scripts/deck.gd" id="1_wtcfe"]
 
 [node name="Node2D" type="Node2D" unique_id=1060673444]
 
-[node name="Chudling" type="Sprite2D" parent="." unique_id=1297641370]
-position = Vector2(464, 224)
-texture = ExtResource("1_wtcfe")
+[node name="Node" type="Node" parent="." unique_id=563582511]
+script = ExtResource("1_wtcfe")
