@@ -1,7 +1,6 @@
 extends Node
 var First:DeckEntry
-@export var Card1 : PackedScene
-@export var Card2 : PackedScene
+@export var AllCards : Array[PackedScene]
 
 
 class DeckEntry:
@@ -15,10 +14,11 @@ class DeckEntry:
 	
 	
 func _ready() -> void:
-	First = DeckEntry.new(Card1)
-	First.Next = DeckEntry.new(Card2)
+	First = DeckEntry.new(AllCards[0])
+	First.Next = DeckEntry.new(AllCards[1])
 func draw_top() -> void:
-	First.MyCard.instantiate()
+	var newCard = First.MyCard.instantiate()
+	add_child(newCard)
 	First = First.Next
 func _process(delta: float) -> void:
 	if Input.is_action_just_pressed("ui_accept"):
