@@ -1,10 +1,10 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1781664011
+::res://::1781738670
 chudling.jpg::CompressedTexture2D::8240392958773208060::1781408255::1781408256::1::::<><><>0<>0<>e5acf269debcaaa5d347d9b726237a76<>res://.godot/imported/chudling.jpg-5c229317a9a6428a6410b4a1b5a0ba72.ctex::
 icon.svg::CompressedTexture2D::2589094016774612616::1781408139::1781408142::1::::<><><>0<>0<>d8f35bd3381e4b167c41cc0feedef440<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-node_2d.tscn::PackedScene::1454140427314636097::1781585359::0::1::::<><><>0<>0<><>::uid://dmxrxp225gmvn::::res://scripts/deck.gd
-::res://scripts/::1781585403
+node_2d.tscn::PackedScene::1454140427314636097::1781664268::0::1::::<><><>0<>0<><>::uid://dmxrxp225gmvn::::res://scripts/deck.gd<>uid://e6lull1xo65f::::res://scripts/chudling.tscn<>uid://bnt5fftqah8ba::::res://scripts/chudling_2.tscn
+::res://scripts/::1781664241
 card.gd::GDScript::325212898611765207::1781583476::0::1::::Card<>Node<><>0<>0<><>::
 chudling.tscn::PackedScene::345455283688855645::1781583549::0::1::::<><><>0<>0<><>::uid://dpnyckynfhkx5::::res://chudling.jpg<>uid://evshdrvirst8::::res://scripts/card.gd
 chudling_2.tscn::PackedScene::3339929559762490910::1781583553::0::1::::<><><>0<>0<><>::uid://dpnyckynfhkx5::::res://chudling.jpg<>uid://evshdrvirst8::::res://scripts/card.gd
-deck.gd::GDScript::8050082956042977463::1781585403::0::1::::<>Node<><>0<>0<><>::
+deck.gd::GDScript::8050082956042977463::1781664241::0::1::::<>Node<><>0<>0<><>::

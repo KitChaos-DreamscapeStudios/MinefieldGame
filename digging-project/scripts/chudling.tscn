@@ -4,6 +4,7 @@
 [ext_resource type="Script" uid="uid://evshdrvirst8" path="res://scripts/card.gd" id="2_8abjt"]
 
 [node name="Chudling" type="Sprite2D" unique_id=1792180728]
+scale = Vector2(0.4, 0.7)
 texture = ExtResource("1_vnbpv")
 script = ExtResource("2_8abjt")
 Name = "Remling"

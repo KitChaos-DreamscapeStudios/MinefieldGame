@@ -5,6 +5,7 @@
 
 [node name="Chudling2" type="Sprite2D" unique_id=807475232]
 modulate = Color(1, 0.089999974, 0.089999974, 1)
+scale = Vector2(0.4, 0.7)
 texture = ExtResource("1_1qovw")
 script = ExtResource("2_2as1d")
 Name = "EVIL Remling"

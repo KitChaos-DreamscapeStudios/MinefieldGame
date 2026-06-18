@@ -7,5 +7,6 @@
 [node name="Node2D" type="Node2D" unique_id=1060673444]
 
 [node name="Deck" type="Node2D" parent="." unique_id=112462054]
+position = Vector2(29, 23)
 script = ExtResource("1_wtcfe")
 AllCards = Array[PackedScene]([ExtResource("2_epypp"), ExtResource("3_0hol4")])

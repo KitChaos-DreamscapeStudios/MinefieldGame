@@ -1,7 +1,7 @@
 extends Node
-var First:DeckEntry
+var Deck : Array[PackedScene]
 @export var AllCards : Array[PackedScene]
-
+var Hand : Array[Node2D]
 
 class DeckEntry:
 	var Next : DeckEntry
@@ -14,21 +14,20 @@ class DeckEntry:
 	
 	
 func _ready() -> void:
-	First = DeckEntry.new(AllCards[0])
-	First.Next = DeckEntry.new(AllCards[1])
+	Deck.append(AllCards[0])
+	Deck.append(AllCards[1])
 func draw_top() -> void:
-	var newCard = First.MyCard.instantiate()
-	add_child(newCard)
-	First = First.Next
-func _process(delta: float) -> void:
-	if Input.is_action_just_pressed("ui_accept"):
-		print
-		draw_top()
-	
-	
-	
-	
+	var newCard = Deck[0].instantiate()
+	get_parent().add_child(newCard)
+	Deck.remove_at(0) 
+	Hand.append(newCard) 
 
-	
-	
-	
+func regulate_hand() -> void:
+	var ticker = 1
+	for i in Hand:
+		i.position = lerp(i.position, Vector2(30+(115*ticker),125),0.15)
+		ticker += 1
+func _process(delta: float) -> void:
+	regulate_hand()
+	if Input.is_action_just_pressed("ui_accept"):
+		draw_top()
