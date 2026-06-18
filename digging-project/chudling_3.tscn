@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://bqp4p5vhxfc0r"]
+
+[ext_resource type="Texture2D" uid="uid://dpnyckynfhkx5" path="res://chudling.jpg" id="1_rtbd3"]
+
+[node name="Chudling_3" type="Sprite2D" unique_id=2033575310]
+modulate = Color(0.41666663, 1, 0, 1)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("1_rtbd3")

@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://dy0eucwyje4y5"]
+
+[ext_resource type="Script" uid="uid://dmxrxp225gmvn" path="res://scripts/deck.gd" id="1_8l818"]
+[ext_resource type="PackedScene" uid="uid://e6lull1xo65f" path="res://chudling.tscn" id="2_jqgjh"]
+[ext_resource type="PackedScene" uid="uid://bnt5fftqah8ba" path="res://chudling_2.tscn" id="3_vf5bc"]
+[ext_resource type="Texture2D" uid="uid://dfytwfxej34vi" path="res://black-white-checkerboard-seamless-pattern-illustration-free-vector-1293697370.jpg" id="4_jqgjh"]
+[ext_resource type="Script" uid="uid://33jp3ywr6ue8" path="res://board.gd" id="5_vf5bc"]
+[ext_resource type="PackedScene" uid="uid://bqp4p5vhxfc0r" path="res://chudling_3.tscn" id="6_mgc1s"]
+
+[node name="Node2D" type="Node2D" unique_id=1982758976]
+
+[node name="Deck" type="Node2D" parent="." unique_id=128303392]
+position = Vector2(29, 23)
+script = ExtResource("1_8l818")
+AllCards = Array[PackedScene]([ExtResource("2_jqgjh"), ExtResource("3_vf5bc")])
+
+[node name="BlackWhiteCheckerboardSeamlessPatternIllustrationFreeVector1293697370" type="Sprite2D" parent="." unique_id=1184922838]
+z_index = -100
+position = Vector2(375.75003, 324.75003)
+scale = Vector2(0.6270407, 0.6270407)
+texture = ExtResource("4_jqgjh")
+script = ExtResource("5_vf5bc")
+tileIndicator = ExtResource("6_mgc1s")
+
+[node name="BoxContainer2" type="BoxContainer" parent="BlackWhiteCheckerboardSeamlessPatternIllustrationFreeVector1293697370" unique_id=1839377125]
+offset_right = 40.0
+offset_bottom = 40.0

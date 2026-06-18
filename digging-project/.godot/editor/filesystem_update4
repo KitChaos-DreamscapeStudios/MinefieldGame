@@ -1,4 +1,5 @@
+res://board.tscn
+res://board.gd
 res://node_2d.tscn
 res://scripts/deck.gd
-res://scripts/chudling.tscn
-res://scripts/chudling_2.tscn
+res://chudling_3.tscn

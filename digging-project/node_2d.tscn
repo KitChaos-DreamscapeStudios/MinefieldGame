@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://uynqllcfv338"]
 
 [ext_resource type="Script" uid="uid://dmxrxp225gmvn" path="res://scripts/deck.gd" id="1_wtcfe"]
-[ext_resource type="PackedScene" uid="uid://e6lull1xo65f" path="res://scripts/chudling.tscn" id="2_epypp"]
-[ext_resource type="PackedScene" uid="uid://bnt5fftqah8ba" path="res://scripts/chudling_2.tscn" id="3_0hol4"]
+[ext_resource type="PackedScene" uid="uid://e6lull1xo65f" path="res://chudling.tscn" id="2_epypp"]
+[ext_resource type="PackedScene" uid="uid://bnt5fftqah8ba" path="res://chudling_2.tscn" id="3_0hol4"]
 
 [node name="Node2D" type="Node2D" unique_id=1060673444]
 

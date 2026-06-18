@@ -21,6 +21,7 @@ func draw_top() -> void:
 	get_parent().add_child(newCard)
 	Deck.remove_at(0) 
 	Hand.append(newCard) 
+	
 
 func regulate_hand() -> void:
 	var ticker = 1
